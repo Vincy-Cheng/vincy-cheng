@@ -128,6 +128,16 @@ const appProjects: IProjectInfo[] = [
 
 const otherProjects: IProjectInfo[] = [
   {
+    name: 'Command Copier',
+    tags: ['tauri', 'desktop-application', 'vue'],
+    description:
+      'A simple clipboard application developed with tauri and vue. It can copy the command from the command line and paste it to the text area.',
+    link: 'https://github.com/Vincy-Cheng/command-copier',
+    screenshot: [
+      'https://private-user-images.githubusercontent.com/60846680/388552856-9e7bd2ef-5096-4596-b298-bdcfe7f12829.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDQ5NjA3NzMsIm5iZiI6MTc0NDk2MDQ3MywicGF0aCI6Ii82MDg0NjY4MC8zODg1NTI4NTYtOWU3YmQyZWYtNTA5Ni00NTk2LWIyOTgtYmRjZmU3ZjEyODI5LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA0MTglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNDE4VDA3MTQzM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWVlNjk0YjQ4NGFhYjNmMDgxZjZiNDRmZDdhYmNmMjA4MzMwZGY2NmJmY2IzNmJmOTVjYWM3YzgyMTQ1OGIyZWYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.2BBCs7oBNRz0l_YUw48l1Kq6rOReg6FSmAjJLytqI7Y',
+    ],
+  },
+  {
     name: 'A Card Game - Match Match',
     tags: ['game', 'c', 'code-block'],
     description:
